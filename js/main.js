@@ -51,7 +51,7 @@ if (contactForm && formFeedback) {
     if (!contactForm.reportValidity()) return;
 
     formFeedback.hidden = false;
-    formFeedback.textContent = 'Dank je. Dit conceptformulier werkt, maar is nog niet gekoppeld aan een inbox. Voeg voor publicatie een ontvanger of formulierdienst toe.';
+    formFeedback.textContent = 'Dank je. Dit demonstratieformulier verstuurt geen gegevens.';
     formFeedback.focus?.();
   });
 }
